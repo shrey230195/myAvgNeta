@@ -1,0 +1,77 @@
+
+    
+<style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; left:0; width:60%; }
+        .card-img-top{
+            height: 250px !important;
+            width: 100% !important;
+        }
+        canvas{
+            width: 99% !important;
+        }
+</style>
+
+<div class="container">    
+    <div class="row">
+        <div class="col-md-6">
+            <div id='map' style='width:100% !important;height: 600px'></div>
+            <script>
+            mapboxgl.accessToken = 'pk.eyJ1Ijoic2hyZXlkaXhpdCIsImEiOiJjajFrcXZmemYwMDJ0MndybmY2djcxcjAwIn0.BDAoBMBzbNlXSOGXNGDyFg';
+            var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v9'
+            });
+            </script>
+        </div>
+        <div class="col-md-3">
+            <div class="row text-center">
+                <h2 class="black bold">AVG NETA</h2>
+                <div class="card">
+                  <img class="card-img-top" src="./images/avg-neta.png" alt="Card image cap">
+                  <div class="card-block">
+                    <h2 class="card-title grey bold">NAME (BJP)</h2>
+                    <h3><strong>Age : </strong>62</h3>
+                    <h3><strong>Sex : </strong>M</h3>
+                    <h3><strong>Income : </strong>Rs 23 crore</h3>
+                    <h3><strong>Criminal Record : </strong>42</h3>
+                    <h3><strong>Education : </strong>10th</h3>
+                    <h3><strong>Total Assests : </strong>Rs 7,17,000</h3>
+                    <h3><strong>Liability : </strong>Rs 35,000</h3>
+                    <h3><strong>PAN ? : </strong>No</h3>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="row text-center">
+                <h2 class="black bold">AAM AADMI</h2>
+                <div class="card">
+                  <img class="card-img-top" src="./images/avg-person.png" alt="Card image cap">
+                  <div class="card-block">
+                    <h2 class="card-title grey bold">NAME (BJP)</h2>
+                    <h3><strong>Age : </strong>62</h3>
+                    <h3><strong>Sex : </strong>M</h3>
+                    <h3><strong>Income : </strong>Rs 23 crore</h3>
+                    <h3><strong>Criminal Record : </strong>42</h3>
+                    <h3><strong>Education : </strong>10th</h3>
+                    <h3><strong>Total Assests : </strong>Rs 7,17,000</h3>
+                    <h3><strong>Liability : </strong>Rs 35,000</h3>
+                    <h3><strong>PAN ? : </strong>No</h3>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.js'></script>
+
+            <script>
+            // mapboxgl.accessToken = 'pk.eyJ1Ijoic29jaWFsY29wc2RldiIsImEiOiJjaXF0aWVlb3AwMDRvZm1udDh1Y3UxZDJ6In0.GzIa6Wms89UV2SZlYmpCtA';
+            // var map = new mapboxgl.Map({
+            //     container: 'chutiya', // container id
+            //     style: 'mapbox://styles/mapbox/light-v9', //hosted style id
+            //     center: [-77.38, 39], // starting position
+            //     zoom: 3 // starting zoom
+            // });
+            </script> 
